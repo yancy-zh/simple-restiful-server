@@ -1,0 +1,17 @@
+[
+	{
+		"project" : "casestudy",
+		"type" : "feature",
+		"priority": "A"
+	},
+	{
+		"project" : "casestudy",
+		"type" : "feature",
+		"priority": "A"
+	},
+	{
+		"project" : "casestudy",
+		"type" : "constraint",
+		"priority": "B"
+	}
+]
