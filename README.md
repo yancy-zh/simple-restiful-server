@@ -1,9 +1,11 @@
-# fundsaccess Case Study - todotxt Conversion Service
-
-Hi Please find the submitted project in this folder (demo_webproj). The three tasks I have finished are: 
-(A) allow to get all TODOs via API +casestudy type:feature
-(A) allow to get a single TODO by ID (!) via API +casestudy type:feature
-(A) show that you know how to unit test +casestudy type:constraint
+# Tasks Conversion Service
+This project provides a task log conversion service, while the task log has the following format in each line of its file: 
+``(A) allow to get all TODOs via API +casestudy type:feature``
+where ([A-Z]) indicates the priority of the task, +<PROJECT_NAME> stands for the project type, "type: <CATEGORY>" stands for the category of the task. 
+The application mainly provides the following three features:
+(1) allow to get all TODOs via API
+(2) allow to get a single TODO by ID (!) via API
+(3) unit test of main classes
 
 # dependencies: 
 I wrote the application in Eclipse, and installed the Java EE, dynamic web application support, NodeJs. Modules needed for NodeJs are listed in package.json, such as nodemon, body-parser, express, fs... They need to installed using?
